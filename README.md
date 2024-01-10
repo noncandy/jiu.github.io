@@ -1,1 +1,3 @@
-This is my own website.
+website jumpscare
+
+Currently figuring out how to code.......
