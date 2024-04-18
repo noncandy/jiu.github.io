@@ -35,6 +35,11 @@
                 background-repeat:repeat-y;
                 color: #ff0aa5;
                 background-image: var(--body-bg-image);
+		min-height:100%;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                -moz-background-size: cover;
             }
 
             * {
