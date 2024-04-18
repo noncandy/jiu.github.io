@@ -31,7 +31,7 @@
                 margin: 0;
                 background-color: #ff148e;
                 /* you can delete the line below if you'd prefer to not use an image */
-                background-size: 1264px;
+                background-size: auto;
                 background-repeat:repeat-y;
                 color: #ff0aa5;
                 background-image: var(--body-bg-image);
