@@ -34,7 +34,7 @@
                 background-size: auto;
                 background-repeat:repeat-y;
                 color: #ff0aa5;
-                background-image: var(--body-bg-image) no-repeat center center fixed;
+                background-image: var(--body-bg-image)
 		-webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
