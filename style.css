@@ -307,3 +307,8 @@ div.desc {
   display: table;
   clear: both;
 }
+
+/*Custom cursor*/
+body {
+  cursor: url('https://files.catbox.moe/muenmx.gif'),auto;
+}

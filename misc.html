@@ -9,27 +9,35 @@
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="shortcut icon" href="img/favicon.png">
+
+<script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+<script type="module">
+  import { springyEmojiCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+
+  new springyEmojiCursor({ emoji: "🥚" });
+</script>
 </head>
 <body>
         
-        <div id="container"><div id="topBar"><marquee>This is a WIP, so not all links on the header work!!! Missing pages are the Shrines page and the Important (BYF/DNI) page.</marquee></div><div id="header" style="height: 235px; align: center"></div>
+        <div id="container"><div id="topBar"><marquee>This site is WIP and will be updated sometime. Only button with missing link in the navbar is "Shrines".</marquee></div><div id="header" style="height: 235px; align: center"></div>
             <div id="headerArea">
                 
                 
             <nav id="navbar" style="margin-bottom: 10px"><ul>
-                <li><a href="https://noncandy.github.io/index.html" alt="To the home page!" title="To the home page!"><img src="https://64.media.tumblr.com/24a5a890f363c693e420a3180fadb30e/bf9539443eee6547-8e/s75x75_c1/5551b2733080977fb9986d78eb8f6f2974a974b8.gifv" alt="Strawberry shortcake" title="Strawberry shortcake" href="https://noncandy.github.io/index.html"> Home</a></li>
-                <li><a href="https://noncandy.github.io/about.html" alt="Casually dumps everything about myself" title="Casually dumps everything about myself"><img src="https://64.media.tumblr.com/1e11bf032c1fc447511ccbbb2054d7d0/bf9539443eee6547-f5/s75x75_c1/666274744f03e448572b99ad5aad8a893ccf4126.gifv" alt="Shooting star" title="Shooting star"> About Me</a></li>
-                <li><a href="https://noncandy.github.io/portfolio.html" alt="Check out my coolest art ever" title="Check out my coolest art ever"><img src="https://64.media.tumblr.com/11c565ec5a80aed4229fd85cad87ce24/96325eaed78832ad-78/s75x75_c1/18f37ce915507642e319d9fd2c32cbfec3118450.gifv" alt="Pink phone" title="Pink phone"> Portfolio and Projects</a></li>
-                <li><a href="#" alt="Watch me burn in hell as I gush about everything" title="Watch me burn in hell as I gush about everything"><img src="https://64.media.tumblr.com/dad8298d6ceb12a90b244e02ebc83410/bf9539443eee6547-cf/s75x75_c1/9e7f1c6a67c0268c55d107176939b2df01790222.gifv" alt="Bouncing strawberry" title="Bouncing strawberry"> Shrines</a></li>
-                <li><a href="https://noncandy.github.io/misc.html" alt="Stuff" title="Stuff"><img src="https://64.media.tumblr.com/172e44aeb3a1c8b380ff0958e5234714/9dde7c5dcc6de4bb-c4/s75x75_c1/576f7c8d24fd50eb7fb2e56d71bbe9f697b10e5d.gifv" alt="Pudding with heart" title="Pudding with heart"> Misc</a></li>
-                <li><a href="#" alt="Read these or I'll send you to R'lyeh" title="Read these or I'll send you to R'lyeh"><img src="https://64.media.tumblr.com/bdecb3cd2998864e4fcb8f66308e4c4b/89079b94bee53d33-07/s75x75_c1/55a0dd13dcd104422592db6503e5fcc95fffb715.gifv" alt+"Pink speech bubble with double excalamation marks" Title="Pink speech bubble with double excalamation marks"> Important!!!!</a></li>
+                <li><a href="/index.html" alt="Go back?" title="Go back?"><img src="https://64.media.tumblr.com/05857caa3d5e80359c15fd62bd4e9f1f/59e1dc726b8d69d4-cd/s75x75_c1/f4936af2ea7fec007ac615172caba495246a0d48.gifv" alt="Dancing pink bunny" title="Dancing pink bunny" href="/index.html"> Home</a></li>
+                <li><a href="/about.html" alt="About this dumbass" title="About this dumbass"><img src="https://64.media.tumblr.com/1e11bf032c1fc447511ccbbb2054d7d0/bf9539443eee6547-f5/s75x75_c1/666274744f03e448572b99ad5aad8a893ccf4126.gifv" alt="Shooting star" title="Shooting star" href="/about.html"> About Me</a></li>
+                <li><a href="/portfolio.html" alt="Check out my worst art ever" title="Check out my worst art ever"><img src="https://64.media.tumblr.com/11c565ec5a80aed4229fd85cad87ce24/96325eaed78832ad-78/s75x75_c1/18f37ce915507642e319d9fd2c32cbfec3118450.gifv" alt="Pink phone" title="Pink phone" href="/portfolio.html"> Art + Projects</a></li>
+                <li><a href="#" alt="Watch me yap abt everything" title="Watch me yap abt everything"><img src="https://64.media.tumblr.com/dad8298d6ceb12a90b244e02ebc83410/bf9539443eee6547-cf/s75x75_c1/9e7f1c6a67c0268c55d107176939b2df01790222.gifv" alt="Bouncing strawberry" title="Bouncing strawberry" href="#"> Shrines</a></li>
+                <li><a href="/misc.html" alt="AAAAAAAA" title="AAAAAAAA"><img src="https://64.media.tumblr.com/172e44aeb3a1c8b380ff0958e5234714/9dde7c5dcc6de4bb-c4/s75x75_c1/576f7c8d24fd50eb7fb2e56d71bbe9f697b10e5d.gifv" alt="Pudding with heart" title="Pudding with heart" href="/misc.html"> Misc</a></li>
+                <li><a href="/important.html" alt="Please read" title="Please read"><img src="https://64.media.tumblr.com/bdecb3cd2998864e4fcb8f66308e4c4b/89079b94bee53d33-07/s75x75_c1/55a0dd13dcd104422592db6503e5fcc95fffb715.gifv" alt+"Pink speech bubble with double excalamation marks" Title="Pink speech bubble with double excalamation marks" href="/index.html"> Important!!!!</a></li>
+				<li><a href="/links.html" alt="idk what to say here but it contains links" title="idk what to say here but it contains links"><img src="https://64.media.tumblr.com/c545372e23f8f95e371e56e76d83446a/376c3be447268f6e-ae/s75x75_c1/3c87314e0885c6c549d889c6274088ae46da3f7f.gifv" alt+"Colorful music note" Title="Colorful music note" href="/links.html"> Links</a></li>
               </ul></nav></div>
 
             <div id="flex">
                 
                 <main>
 				<h1>This is a work in progress and will update anytime.</h1>
-				<h3>Last updated: 4/22/2024</h3>
+				<h3>Last updated: 6/3/2024</h3>
 				<div class="box" style="background-color: white;color: black">
 				<h1>Stamps</h1>
 				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3d3655b7-467f-4394-ac71-50e0c1dfcff8/dcjxyqa-b0d19bbd-ebe2-43d2-a680-8d24a7e75c83.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNkMzY1NWI3LTQ2N2YtNDM5NC1hYzcxLTUwZTBjMWRmY2ZmOFwvZGNqeHlxYS1iMGQxOWJiZC1lYmUyLTQzZDItYTY4MC04ZDI0YTdlNzVjODMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Gf1QihDyb3h8fmUt39_SmHSE0aUqdzXHJ5D_7Kh93MY">
@@ -92,17 +100,55 @@
 				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0c227bfa-0713-45a5-b75f-277f136cca9a/d5as34r-177c12be-5794-4b80-ae0f-9b4467dae248.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBjMjI3YmZhLTA3MTMtNDVhNS1iNzVmLTI3N2YxMzZjY2E5YVwvZDVhczM0ci0xNzdjMTJiZS01Nzk0LTRiODAtYWUwZi05YjQ0NjdkYWUyNDgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BaE3Yi25DT3-ZIt56MPBDR91USl-HweaLWO96zB-CPQ">
 				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8f6d654b-cfe6-44b1-9c3f-741ee675401e/d36bsn5-acd15c45-a7b8-4527-957b-c1cceeaadee1.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhmNmQ2NTRiLWNmZTYtNDRiMS05YzNmLTc0MWVlNjc1NDAxZVwvZDM2YnNuNS1hY2QxNWM0NS1hN2I4LTQ1MjctOTU3Yi1jMWNjZWVhYWRlZTEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.sJM8RwgqkGuEMi2hVARXkWgdYGYRY_D2P1HVDWSGDw8">
 				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4acad9b0-34d3-4fb6-8693-c93d1af34454/d2n98gg-859c7fa8-e07a-4fcd-8afe-dd46550fb4ed.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRhY2FkOWIwLTM0ZDMtNGZiNi04NjkzLWM5M2QxYWYzNDQ1NFwvZDJuOThnZy04NTljN2ZhOC1lMDdhLTRmY2QtOGFmZS1kZDQ2NTUwZmI0ZWQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.qjAHoNmXSPLR8v7iPWziEriZZbXi8tQt8w57N1F3tSg">
+				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/97134f7b-7119-403b-a672-131a78418832/d12aioc-95df35f5-0d10-49d3-b68c-b906455ba564.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk3MTM0ZjdiLTcxMTktNDAzYi1hNjcyLTEzMWE3ODQxODgzMlwvZDEyYWlvYy05NWRmMzVmNS0wZDEwLTQ5ZDMtYjY4Yy1iOTA2NDU1YmE1NjQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.h9xfH2THUGiT-2QYv0Cm1PEJeJWBmFH1X2Dn0nUXOSo">
+				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fbbb51cc-3f57-455b-97da-804c1f613c16/dan6tzt-0e67cd0c-5d01-40d8-8d3d-f0698d31c5ec.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZiYmI1MWNjLTNmNTctNDU1Yi05N2RhLTgwNGMxZjYxM2MxNlwvZGFuNnR6dC0wZTY3Y2QwYy01ZDAxLTQwZDgtOGQzZC1mMDY5OGQzMWM1ZWMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ik5CQdCR7YrESUC1vwE69vCpbjFKD7WSjko3QkJS6Ho">
+				<img src="https://64.media.tumblr.com/304e98ffbb5b8d0173e2a36e9f1c5c2a/7db2bebf0a31eed2-4c/s100x200/44717da542fa4e9d4a66a20acab48163d941cf50.pnj">
+				<img src="https://64.media.tumblr.com/2d6554bbef3d145bbefc360d5f0ba764/0d9c08ed8003adc6-82/s100x200/5c863b1f5e6d1e3bcad1833006e6e80daea9e4ed.pnj">
+				<img src="https://64.media.tumblr.com/9d51e9710d24283290d83c095614f818/3bf62ad8d20f8b2a-df/s100x200/3a733a18cd7ff6536a26aa94a24b19b9a3c67428.gifv">
+				<img src="https://64.media.tumblr.com/9b20cba0b672b2c7f6d9295f1d97004a/d3abe813af06eb03-30/s100x200/80a49ae7b3e2e93a87a69254dd1687ce51440bd3.jpg">
+				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1d0155d9-6365-4974-9454-a0c3115dd492/ddpzqxb-fdf20d7f-b6e7-4775-a807-1a81913458c5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFkMDE1NWQ5LTYzNjUtNDk3NC05NDU0LWEwYzMxMTVkZDQ5MlwvZGRwenF4Yi1mZGYyMGQ3Zi1iNmU3LTQ3NzUtYTgwNy0xYTgxOTEzNDU4YzUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.e_F-49qGD_pO2IQvjOknYbfEmX7bd7vCLYWTqpzXVu4">
 				</div>
 				<div class="box" style="background-color: white;color: black">
 				<h1>Blinkies</h1>
 				<img src="https://64.media.tumblr.com/c1f09e768b87a0f377535210d210e950/fbd78c00206bcb28-80/s250x400/1226e8fa7a072dd98ba69d95c46f052db8bc23ae.gifv">
+				<img src="https://y2k.neocities.org/blinkiez/43b17ca5af3aeea85f52087b0d486168.gif">
+				<img src="https://y2k.neocities.org/blinkiez/hello_kitty3.gif">
+				<img src="https://y2k.neocities.org/blinkiez/tumblr_ojfyta8m3J1va2yuso1_r1_250.gif">
+				<img src="https://y2k.neocities.org/blinkiez/tumblr_static_ahsjc3xv91s8sooc4og0oc08w.gif">
+				<img src="https://y2k.neocities.org/blinkiez/newbatch/W4dX4ri.gif">
+				<img src="https://y2k.neocities.org/blinkiez/newbatch/blinkiesmile.gif">
+				<img src="https://y2k.neocities.org/blinkiez/newbatch/rainbows.gif">
+				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dfz2077-92c055d5-6508-4b47-942e-8a831026234a.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGZ6MjA3Ny05MmMwNTVkNS02NTA4LTRiNDctOTQyZS04YTgzMTAyNjIzNGEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dt_sOieLHeg5P8AN_pBZT3nWcphM7EvK4sx_tSDIXtY">
+				<img src="https://64.media.tumblr.com/162b6b3c8996dca1dd37c65d8d2c35db/ee5fc417313dd853-a2/s400x600/ba5da6c11b4c49f9df4cf8ef912d196f3ef1f97a.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/43279f742fb3997605592f9a49ca24dc/97c7dde310e471ef-aa/s250x400/86fc73f73388d69260bcf623b7cd56109ed07607.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/e830410ee86a4b043e6b7a22eb74e06a/97c7dde310e471ef-86/s250x400/ff9058972a9d5aa645fd3969e464451ca70fe9b0.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/d9b6facaafde9032ac8081ef98663343/d2d2e653ce9b8f37-b6/s250x400/12b3edd9b19c8d21b89b90b60e62729baa2bdb4c.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/d4b076d00f052cecd194241310fd532d/d2d2e653ce9b8f37-ec/s250x400/34fd901f5b831b707c95b3b69c67eceea5821fad.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/0e9278c6ada8056c58e1f468653249ba/66f8bee48421ca35-17/s250x400/6a8082d819172fbaf818a9111f0fa8da00715957.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/e2ceb0f81d5dd89c9907300bafb4f775/e2a17b4ac5839e98-2b/s250x400/c4484cd43545ed3c5476a237adff107dca382e11.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/c484ce11fc0297e1454d404a3f83d831/e2a17b4ac5839e98-21/s250x400/8a14749d51f5ba9a67752594043999380832ecc1.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/1e1db2edfac6f852524ca96bad794f3c/a5f312680aee2872-45/s250x400/ea1673c0a1d44035c0fce37972f04aee25c41590.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/278f53d1e620e9758d67f8128a27f664/44b88cdeb699e68c-cd/s250x400/1b13c1b85195f84eac70041fce5a4a4d37b63e49.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/e75901fa8329abe456f3c73cbe1a36ac/b4efadd60ae6c6cc-cd/s250x400/afd17659b489e45144c21a07dd4a64be72851020.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/f7d423e0392dc4d987274cbb33039f14/b4efadd60ae6c6cc-0e/s250x400/988e422097fd26ce6b5667a0f8a27f5f88ab4598.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/b999dcf6a9f1ea99debdd9ee568e10da/e20c6ca9f0d72bfc-2b/s640x960/f1c1c3a8e0494b62e1556910f70d4ba4a0c923b4.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/0248d6b491e03fb764ba51767c92ce0b/4f650e84a85a6255-eb/s250x400/1297c91555767eec1818d56838da1d1a782c1993.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/28c5550b59a751c66bae2992f8b7ec0f/715f95031ddb27bc-18/s400x600/1a70b4cbc53025847bd23ef50e8d803098bb416a.gifv" width="150px">
+				<img src="https://64.media.tumblr.com/233481511ea18a3bf538cf5ddffdc18a/7679022aa0276f86-48/s250x400/be6aab5780ca4261dfed3559bed0351ddeb69ef3.gifv" width="150px">
 				</div>
 				<div class="box" style="background-color: white;color: black">
 				<h1>Buttons</h1>
 				<h3>Large (DeviantArt buttons)</h3>
 				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c3e2b5f-fd8a-4fab-9442-21db53a8af6b/d9c19ft-ece3c056-87bb-4112-86b6-cb2fc5875fca.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljM2UyYjVmLWZkOGEtNGZhYi05NDQyLTIxZGI1M2E4YWY2YlwvZDljMTlmdC1lY2UzYzA1Ni04N2JiLTQxMTItODZiNi1jYjJmYzU4NzVmY2EucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7wU46Ky4obx06oXlEGX_10yDc5KRSU6MFPf2V51Dzsc">
+				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c3e2b5f-fd8a-4fab-9442-21db53a8af6b/d6bxpka-9a46cdf9-0f68-4c65-b7a8-15ddc4c1e1f3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljM2UyYjVmLWZkOGEtNGZhYi05NDQyLTIxZGI1M2E4YWY2YlwvZDZieHBrYS05YTQ2Y2RmOS0wZjY4LTRjNjUtYjdhOC0xNWRkYzRjMWUxZjMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I0vqfgW3p_hKDqnSgDQus3gUic55in2HRn5wfMo0QD0">
+				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c3e2b5f-fd8a-4fab-9442-21db53a8af6b/d5h66an-6169ccc9-0d2a-4a7f-ace1-2da6aae3d37b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljM2UyYjVmLWZkOGEtNGZhYi05NDQyLTIxZGI1M2E4YWY2YlwvZDVoNjZhbi02MTY5Y2NjOS0wZDJhLTRhN2YtYWNlMS0yZGE2YWFlM2QzN2IucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SZoIKRNskVG9S9YvvBbDsfWV1wUSVwePbPT0WOls2D8">
+				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c3e2b5f-fd8a-4fab-9442-21db53a8af6b/d6f8c8a-4029dd52-23b7-477d-9148-6e75d5771979.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljM2UyYjVmLWZkOGEtNGZhYi05NDQyLTIxZGI1M2E4YWY2YlwvZDZmOGM4YS00MDI5ZGQ1Mi0yM2I3LTQ3N2QtOTE0OC02ZTc1ZDU3NzE5NzkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bmWeMRPRNDbG37UaPA8wyxcUSKdfn3h-9UxBAWQyS-A">
+				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c3e2b5f-fd8a-4fab-9442-21db53a8af6b/d6f8cbk-6cad6ae1-f745-4943-ae9c-b6954ebe9a73.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljM2UyYjVmLWZkOGEtNGZhYi05NDQyLTIxZGI1M2E4YWY2YlwvZDZmOGNiay02Y2FkNmFlMS1mNzQ1LTQ5NDMtYWU5Yy1iNjk1NGViZTlhNzMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.P5yehrlyhhnjzYWZciCxqhgbQa_ubMNjk7IewGxrUqY">
+				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3e293e7f-7568-4b09-9f0f-9734668b9558/db8ud7g-094a3097-0a92-4e48-83a0-9978bdffa369.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNlMjkzZTdmLTc1NjgtNGIwOS05ZjBmLTk3MzQ2NjhiOTU1OFwvZGI4dWQ3Zy0wOTRhMzA5Ny0wYTkyLTRlNDgtODNhMC05OTc4YmRmZmEzNjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IIvbrGMgSGvkJMD1z4nByC5zPRH9arhmnMDgBhYzse4">
+				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c3e2b5f-fd8a-4fab-9442-21db53a8af6b/d7ki0h7-5a78f4e5-1beb-4515-9057-1a283e25eb82.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljM2UyYjVmLWZkOGEtNGZhYi05NDQyLTIxZGI1M2E4YWY2YlwvZDdraTBoNy01YTc4ZjRlNS0xYmViLTQ1MTUtOTA1Ny0xYTI4M2UyNWViODIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4_rdJfB2tFblN1bQUz0ZEA9YegVRePMr3XxPqTg-5wA">
+				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c3e2b5f-fd8a-4fab-9442-21db53a8af6b/d712yqg-9babbb01-fc7e-4d6c-aa5d-9254f18a94a3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljM2UyYjVmLWZkOGEtNGZhYi05NDQyLTIxZGI1M2E4YWY2YlwvZDcxMnlxZy05YmFiYmIwMS1mYzdlLTRkNmMtYWE1ZC05MjU0ZjE4YTk0YTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Z4TYuoWhVnpv-iQjC8odjgMPHcc7dWyAJoS5xDjUgII">
+				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/39a1a49f-0c52-4794-bedd-79599c94aef4/d659h1q-76b51175-cda5-4d44-a902-129a81543cc5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM5YTFhNDlmLTBjNTItNDc5NC1iZWRkLTc5NTk5Yzk0YWVmNFwvZDY1OWgxcS03NmI1MTE3NS1jZGE1LTRkNDQtYTkwMi0xMjlhODE1NDNjYzUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.teGUp5TTD8eqzKS2EOGkodczuWFR4UEuQ1yLrL_9igA">
 				<h3>Small (Old web buttons)</h3>
-				<img src="https://64.media.tumblr.com/09a74350ec1e121cb4f62e88f64e3f22/af59bfe2eedade66-65/s100x200/42461a794352c5576a25968fe0d459398d7a1bd5.gifv">
 				<img src="https://64.media.tumblr.com/f86ef7faf89014178549ffd292cbdc5c/3cb3c8474c05d418-d2/s100x200/9b795dc129d1d9e527bc1db60fb4689e42bf1c17.gifv">
 				<img src="https://64.media.tumblr.com/55930a4374b71e2157afeca066ed9868/0ca350219ed0b47b-c4/s100x200/5aa1de74caf9e51d958e4734d802babe6eefe6aa.gifv">
 				<img src="https://64.media.tumblr.com/7f35f71a266806d005ba674ff904aaeb/0f6bef11a7b35dd4-05/s100x200/0be6844cc4f7f174b278579aedf84f07ebab319f.gifv">
@@ -111,6 +157,25 @@
 				<img src="https://64.media.tumblr.com/90e8d7cb9e59ad691704783982b379e4/d9bbed29430147dd-ff/s100x200/a7946d94990d54dd51cc27b8894da0b3bd11266d.gifv">
 				<img src="https://64.media.tumblr.com/ac374606d88793b50dafbaff6ad90867/af59bfe2eedade66-13/s100x200/39ce33b9f7f307ccc740120da5e11cbafeff1fb3.gifv">
 				<img src="https://64.media.tumblr.com/ba1a9ae5b212f7a858f2cedc7c07349a/tumblr_inline_rc2j08f4Bx1vefsve_500.gif">
+				<img src="https://goblin-heart.net/assets/images/flair/standwith.png">
+				<img src="https://yesterhost.neocities.org/archive/buttons/button191.png">
+				<img src="https://yesterhost.neocities.org/archive/buttons/button412.png">
+				<img src="https://yesterhost.neocities.org/archive/buttons/button377.gif">
+				<img src="https://yesterhost.neocities.org/archive/buttons/button397.gif">
+				<img src="https://yesterhost.neocities.org/archive/buttons/button360.png">
+				<img src="https://yesterhost.neocities.org/archive/buttons/button285.gif">
+				<img src="https://64.media.tumblr.com/c2bca9f766d704894631aa65b1f0db63/67425fd3a282e3d1-7e/s100x200/03334069862b923fa57cafbccca2c6dbed80bd4c.gifv">
+				<img src="https://64.media.tumblr.com/89b550ccc0f7fb4ba709fb844e4fa660/aad1b8f654beceba-f2/s100x200/0d118882edd3c83d7908f28d1374d01d81f00592.pnj">
+				<img src="https://64.media.tumblr.com/a7e3165b0f7e5b8afa655487b0dd7178/3ea0e5e9f5bdc2c0-96/s100x200/d12aa45f31009fa3dd84ab03597c651277e2dc53.gifv">
+				<img src="https://64.media.tumblr.com/25e3d418c6c3d237929152c6b29d8fee/8da1fcc2358f0a71-4e/s100x200/99776cc085c79b6144ce1d606ab190464d32ee5e.gifv">
+				<img src="https://64.media.tumblr.com/b531fb37d5766b2241a2bd9b8a1949b7/34b6e910bb57516a-71/s100x200/3f8a43c0742ef79e7a0b943f41692dba206e3bd5.gifv">
+				<img src="https://64.media.tumblr.com/4437576e1b8f5ac00dc20be4983f1a54/b1a1e249bc468610-2f/s100x200/bf84ee356ae5386f8029951cc928738febff4d85.gifv">
+				<img src="https://64.media.tumblr.com/b1793b129f9a6f227ea0123ffc0c618b/13e8ab8c9a38d596-72/s100x200/82e38d85eb7e5e999b043defaef8ef6cd7f8ea6d.pnj">
+				<img src="https://64.media.tumblr.com/ed2554fa24aa4f05c70622b62af8f3d0/210c0677717b618d-92/s100x200/880e382a69fd199d256b75730733708a830bd1fa.gifv">
+				<img src="https://64.media.tumblr.com/15afbbf427f30b4be071f8e72072bcea/ac42de03c3ea6c71-a9/s100x200/13220a18e7331c759650644e0117701a96e18a46.gifv">
+				<img src="https://64.media.tumblr.com/96c64e6b86964d1064028f4294388adb/89956fa0ca9b50bd-f3/s100x200/118bab4c024b6475a24d9d4fd2bb7a0cf14be091.pnj">
+				<img src="https://64.media.tumblr.com/e77f191a8f5cb4394aa7a61fcc1e2871/5a44aa30cd7c22b3-58/s100x200/c396cc19d7f34ffab44169018a40af14afe6cc11.pnj">
+				<img src="https://64.media.tumblr.com/7d3d65cdc7382fefafd2c019a7682758/a54b3469aec37e08-6a/s100x200/89b501c6a10bd72cf0d7603b269f1d74db93e109.gifv">
 				</div>
 				<div class="box" style="background-color: white;color: black">
 				<h1>Other</h1>
@@ -123,32 +188,12 @@
 				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c350de11-8c52-4be4-bc28-608bfd99bd53/da0rd49-bee12a60-9ed2-4b70-8881-b4e8ccb03626.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MzNTBkZTExLThjNTItNGJlNC1iYzI4LTYwOGJmZDk5YmQ1M1wvZGEwcmQ0OS1iZWUxMmE2MC05ZWQyLTRiNzAtODg4MS1iNGU4Y2NiMDM2MjYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.F0y_wrXaI32oIJq3HC9K7gPqKqWHrjWsBsfUbd2KBbQ">
 				<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c350de11-8c52-4be4-bc28-608bfd99bd53/d99fy3b-70eedc2a-2bcd-4032-975d-c505b6263561.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MzNTBkZTExLThjNTItNGJlNC1iYzI4LTYwOGJmZDk5YmQ1M1wvZDk5ZnkzYi03MGVlZGMyYS0yYmNkLTQwMzItOTc1ZC1jNTA1YjYyNjM1NjEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zW5pvoi_yqgdSEVWTzQwTeKhc-AgEGJqk0jpJD4oTt0">
 				</div>
+				
+<div style="position: fixed; bottom: 0px; right: 0px; padding: 0px; border: transparent;"><div style="text-align:right"><img src="https://noncandy.github.io/img/pagedrool.png" width="200px" alt="This is a dumbass" title="This is a dumbass"></img></div></div>
                 </main>
                 
-            <aside id="leftSidebar" style="margin-right: 0px;"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06560c47-5f82-4a9a-bc6b-aaf1f8b64d2b/d8n29e4-4849a82d-eab7-4f3e-9bba-cf4c3558db9b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA2NTYwYzQ3LTVmODItNGE5YS1iYzZiLWFhZjFmOGI2NGQyYlwvZDhuMjllNC00ODQ5YTgyZC1lYWI3LTRmM2UtOWJiYS1jZjRjMzU1OGRiOWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9RHKZRlZ2_pbu-1q01lEwH0aM43oOo1y-i_ncE_7rKo" alt="Strawberry divider" title="Strawberry divider"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06560c47-5f82-4a9a-bc6b-aaf1f8b64d2b/d8n29e4-4849a82d-eab7-4f3e-9bba-cf4c3558db9b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA2NTYwYzQ3LTVmODItNGE5YS1iYzZiLWFhZjFmOGI2NGQyYlwvZDhuMjllNC00ODQ5YTgyZC1lYWI3LTRmM2UtOWJiYS1jZjRjMzU1OGRiOWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9RHKZRlZ2_pbu-1q01lEwH0aM43oOo1y-i_ncE_7rKo" alt="Strawberry divider" title="Strawberry divider"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06560c47-5f82-4a9a-bc6b-aaf1f8b64d2b/d8n29e4-4849a82d-eab7-4f3e-9bba-cf4c3558db9b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA2NTYwYzQ3LTVmODItNGE5YS1iYzZiLWFhZjFmOGI2NGQyYlwvZDhuMjllNC00ODQ5YTgyZC1lYWI3LTRmM2UtOWJiYS1jZjRjMzU1OGRiOWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9RHKZRlZ2_pbu-1q01lEwH0aM43oOo1y-i_ncE_7rKo" alt="Strawberry divider" title="Strawberry divider"><h2>Updates</h2>
-<div class="box" title="skibidi has no rizz">
-			<p>For full list of updates, <a href="https://noncandy.github.io/updates.html" style="color: white">click here</a></p>
-			<p>4/22/2024</p>
-			<ul style="padding-left:10px">
-			<li>Added the <a href="https://noncandy.github.io/misc.html" style="color:white">misc page</a>, where I put stamps and buttons and other shiz 👀</li>
-			<li>Updated the top bar marquee</li>
-			</ul>
-			<p>4/21/2024</p>
-			<ul style="padding-left:10px">
-			<li>Removed "Cool Jiu Fact's" sadly 😔 Couldn't fix this thing without putting any unsafe stuff (I realized I put some unsafe stuff thanks to my friend informing me)</li>
-			<li>Fixed the background, it now should resize according to your screen (just like mine 😭)</li>
-			<li>Updated the <a href="https://noncandy.github.io/portfolio.html" style="color:white">Portfolio</a></li>
-			<li>Updated the <a href="https://noncandy.github.io/about.html" style="color:white">About page</a></li>
-			<li>A few other minor changes</li>
-			</ul>
-			<p>3/1/2024</p>
-			<ul style="padding-left:10px">
-			<li>Added favicon</li>
-			<li>Changed countdown</li>
-			<li>Seperated CSS from HTML files for the site and moved them to style.css</li>
-			</ul>
-                
-            </div>
+            <aside id="leftSidebar" style="margin-right: 0px;"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06560c47-5f82-4a9a-bc6b-aaf1f8b64d2b/d8n29e4-4849a82d-eab7-4f3e-9bba-cf4c3558db9b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA2NTYwYzQ3LTVmODItNGE5YS1iYzZiLWFhZjFmOGI2NGQyYlwvZDhuMjllNC00ODQ5YTgyZC1lYWI3LTRmM2UtOWJiYS1jZjRjMzU1OGRiOWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9RHKZRlZ2_pbu-1q01lEwH0aM43oOo1y-i_ncE_7rKo" alt="Strawberry divider" title="Strawberry divider"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06560c47-5f82-4a9a-bc6b-aaf1f8b64d2b/d8n29e4-4849a82d-eab7-4f3e-9bba-cf4c3558db9b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA2NTYwYzQ3LTVmODItNGE5YS1iYzZiLWFhZjFmOGI2NGQyYlwvZDhuMjllNC00ODQ5YTgyZC1lYWI3LTRmM2UtOWJiYS1jZjRjMzU1OGRiOWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9RHKZRlZ2_pbu-1q01lEwH0aM43oOo1y-i_ncE_7rKo" alt="Strawberry divider" title="Strawberry divider"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06560c47-5f82-4a9a-bc6b-aaf1f8b64d2b/d8n29e4-4849a82d-eab7-4f3e-9bba-cf4c3558db9b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA2NTYwYzQ3LTVmODItNGE5YS1iYzZiLWFhZjFmOGI2NGQyYlwvZDhuMjllNC00ODQ5YTgyZC1lYWI3LTRmM2UtOWJiYS1jZjRjMzU1OGRiOWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9RHKZRlZ2_pbu-1q01lEwH0aM43oOo1y-i_ncE_7rKo" alt="Strawberry divider" title="Strawberry divider"><h2><a href="/updates.html">Updates</a></h2>
+			<h3>Last updated: 6/3/2024</h3>
 			<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06560c47-5f82-4a9a-bc6b-aaf1f8b64d2b/d8n29e4-4849a82d-eab7-4f3e-9bba-cf4c3558db9b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA2NTYwYzQ3LTVmODItNGE5YS1iYzZiLWFhZjFmOGI2NGQyYlwvZDhuMjllNC00ODQ5YTgyZC1lYWI3LTRmM2UtOWJiYS1jZjRjMzU1OGRiOWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9RHKZRlZ2_pbu-1q01lEwH0aM43oOo1y-i_ncE_7rKo" alt="Strawberry divider" title="Strawberry divider"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06560c47-5f82-4a9a-bc6b-aaf1f8b64d2b/d8n29e4-4849a82d-eab7-4f3e-9bba-cf4c3558db9b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA2NTYwYzQ3LTVmODItNGE5YS1iYzZiLWFhZjFmOGI2NGQyYlwvZDhuMjllNC00ODQ5YTgyZC1lYWI3LTRmM2UtOWJiYS1jZjRjMzU1OGRiOWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9RHKZRlZ2_pbu-1q01lEwH0aM43oOo1y-i_ncE_7rKo" alt="Strawberry divider" title="Strawberry divider"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06560c47-5f82-4a9a-bc6b-aaf1f8b64d2b/d8n29e4-4849a82d-eab7-4f3e-9bba-cf4c3558db9b.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA2NTYwYzQ3LTVmODItNGE5YS1iYzZiLWFhZjFmOGI2NGQyYlwvZDhuMjllNC00ODQ5YTgyZC1lYWI3LTRmM2UtOWJiYS1jZjRjMzU1OGRiOWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.9RHKZRlZ2_pbu-1q01lEwH0aM43oOo1y-i_ncE_7rKo" alt="Strawberry divider" title="Strawberry divider">
             <h2>Stuff</h2>
 			<p><!-- Start of CuterCounter Code -->
